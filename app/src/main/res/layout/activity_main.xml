@@ -30,7 +30,21 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="@{viewModel.onClickButton}"
+            android:onClick="@{viewModel.onClickTopButton}"
+            android:text="@string/MAIN_BUTTON_TITLE"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="@string/MAIN_FULL_NAME"
+            android:text="@{viewModel.getFullName}" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="@{viewModel.onClickBottomButton}"
             android:text="@string/MAIN_BUTTON_TITLE"
             android:textAllCaps="false" />
     </LinearLayout>

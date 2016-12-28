@@ -19,12 +19,12 @@ public class User extends BaseObservable {
         this.lastName = lastName;
     }
 
-    @Bindable
+    @Bindable // annotation for generate BR
     public String getFirstName() {
         return firstName;
     }
 
-    @Bindable
+    @Bindable // annotation for generate BR
     public String getLastName() {
         return lastName;
     }

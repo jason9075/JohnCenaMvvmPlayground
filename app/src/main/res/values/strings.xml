@@ -2,5 +2,6 @@
     <string name="app_name">DataBindingPlayground</string>
     <string name="MAIN_FIRST_NAME">first name</string>
     <string name="MAIN_LAST_NAME">last name</string>
+    <string name="MAIN_FULL_NAME">full name</string>
     <string name="MAIN_BUTTON_TITLE">Call Name</string>
 </resources>
